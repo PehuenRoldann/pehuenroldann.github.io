@@ -1,0 +1,211 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>CV — Pehuén Roldán</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <meta name="description" content="CV - Tu Nombre | Analista/Ingeniero en Sistemas de Información" />
+  <style>
+    /* Small extra styles for the carousel dots */
+    .dot { width:10px;height:10px;border-radius:9999px;display:inline-block;margin:0 6px;opacity:.5 }
+    .dot.active{opacity:1}
+  </style>
+</head>
+<body class="bg-gray-50 text-gray-800 antialiased">
+  <!-- Container -->
+  <header class="bg-white shadow-sm">
+    <div class="max-w-4xl mx-auto px-6 py-6 flex items-center justify-between">
+      <div>
+        <h1 class="text-2xl font-semibold">Pehuén Ignacio Roldán</h1>
+        <p class="text-sm text-gray-500">Analista Universitario / Estudiante de Ingeniería en Sistemas de Información</p>
+      </div>
+      <div class="flex gap-3 items-center">
+        <a href="#contact" class="px-4 py-2 border rounded-md text-sm hover:bg-gray-100">Contacto</a>
+        <a href="resume.pdf" download class="bg-blue-600 text-white px-4 py-2 rounded-md text-sm hover:bg-blue-700">Descargar CV</a>
+      </div>
+    </div>
+  </header>
+
+  <main class="max-w-4xl mx-auto px-6 py-10">
+    <!-- Hero / About -->
+    <section class="grid md:grid-cols-3 gap-8 items-center">
+      <div class="md:col-span-2">
+        <h2 class="text-3xl font-bold mb-2">Sobre mí</h2>
+        <p class="text-gray-600 mb-4">Analista universitario en sistemas de información, graduado de la Universidad Tecnológica Nacional — Concepción del Uruguay. Actualmente finalizando la carrera de Ingeniería en Sistemas de Información en la misma facultad. Me interesa el desarrollo web, bases de datos y la automatización de procesos.</p>
+        <ul class="grid grid-cols-2 gap-2 text-sm text-gray-700">
+          <li>📍 Ubicación: Gualeguaychú, Entre Ríos, Argentina</li>
+          <li>🎓 Formación: UTN - Concepción del Uruguay</li>
+          <li>💼 Busco: Jornada 6 - 8 hs / Junior</li>
+          <li>✉️ Email: roldanpehuen@gmail.com</li>
+        </ul>
+      </div>
+      <div class="flex justify-center md:justify-end">
+        <div class="w-40 h-40 bg-gradient-to-br from-blue-200 to-indigo-200 rounded-lg flex items-center justify-center text-xl font-medium text-gray-700"><img src="assets/squ_profile.png" alt=""></div>
+      </div>
+    </section>
+
+    <!-- Carousel (proyectos / destacados) -->
+    <!-- Carousel (proyectos / destacados) -->
+        <section class="mt-12">
+        <h3 class="text-2xl font-semibold mb-4">Proyectos destacables</h3>
+        <div class="relative bg-white rounded-lg shadow p-6">
+            <div id="carousel" class="overflow-hidden">
+           
+            <div class="carousel-track flex transition-transform duration-500">
+                <article class="w-full flex-shrink-0 pr-6">
+                <h4 class="text-xl font-medium mb-2">
+                    Urbancheck — Sistema de gestión de reclamos urbanos
+                </h4>
+                <p class="text-gray-600 leading-relaxed text-sm">
+                    Proyecto final de carrera que propone modernizar la gestión de reclamos urbanos 
+                    en la municipalidad de Concepción del Uruguay, mejorando la experiencia de usuario, 
+                    la trazabilidad y la transparencia, tanto dentro como fuera de la organización.
+                </p>
+                <p class="text-gray-500 text-xs mt-2">
+                    Tecnologías: HTML, CSS, TypeScript, Angular 16, PostgreSQL, NestJS, GraphQL, Keycloak, Nginx, Docker.
+                </p>
+                <div style="display: flex; justify-content: center; align-items: center;">
+                    <img style="margin-top: 5px; border-radius: 5px; width: 80%; height: auto;" src="assets/urbancheck.png" alt="">
+                </div>
+                </article>
+
+                <article class="w-full flex-shrink-0 pr-6">
+                <h4 class="text-xl font-medium mb-2">
+                    Simple Track — Dashboard de seguimiento de criptomonedas
+                </h4>
+                <p class="text-gray-600 leading-relaxed text-sm">
+                    Proyecto de la cátedra <em>Taller de Programación</em> de la UTN FRCU. 
+                    Permite visualizar la variación de precios de criptomonedas de forma clara y amigable para el usuario.
+                </p>
+                <p class="text-gray-500 text-xs mt-2">
+                    Tecnologías: .NET 6, PostgreSQL, API REST, GTK.
+                </p>
+                <div style="display: flex; justify-content: center; align-items: center;">
+                    <img style="margin-top: 5px; border-radius: 5px; width: 80%; height: auto;" src="assets/simple_track_img1.png" alt="">
+                </div>
+                </article>
+
+                <article class="w-full flex-shrink-0 pr-6">
+                <h4 class="text-xl font-medium mb-2">
+                    MHP3 Build Maker — Creador de builds en el juego <i>Monster Hunter Portable 3rd</i>
+                </h4>
+                <p class="text-gray-600 leading-relaxed text-sm">
+                    Proyeco personal que busca asistir a jugadores nuevos en un juego retro que carece de las comodidades de nuevas entregas. 
+                    Permite selecionar las distintas partes de las armaduras disponibles en el juego, mostarando los stats, skills adquiridos,
+                    asi como los recursos necesarios para fábricar todas las piezas.
+                </p>
+                <p class="text-gray-500 text-xs mt-2">
+                    Tecnologías: Angular 17, NodeJS, Typescript, SASS.
+                </p>
+                <div style="display: flex; justify-content: center; align-items: center;">
+                    <img style="margin-top: 5px; border-radius: 5px; width: 80%; height: auto;" src="assets/build_maker.png" alt="">
+                </div>
+                </article>
+            </div>
+            </div>
+        </div>
+        </section>
+
+
+        <!-- Controls -->
+        <div class="flex items-center justify-between mt-4">
+          <div class="flex items-center">
+            <button id="prev" class="px-3 py-1 border rounded-md text-sm hover:bg-gray-50">Anterior</button>
+            <button id="next" class="ml-2 px-3 py-1 border rounded-md text-sm hover:bg-gray-50">Siguiente</button>
+          </div>
+          <div id="dots" class="flex items-center"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Experience & Skills -->
+    <section class="mt-12 grid md:grid-cols-2 gap-6">
+      <div class="bg-white p-6 rounded-lg shadow">
+        <h3 class="text-xl font-semibold mb-3">Experiencia</h3>
+        <ul class="space-y-3 text-gray-700 text-sm">
+          <li>
+            <strong>Pasantía — Bombieri</strong>
+            <div class="text-gray-500">Desarrollo, investigación e implementación de IA <br> 01/10/2024 - Actualidad</div>
+          </li>
+          <!-- <li>
+            <strong>Asistente de cátedra — UTN</strong>
+            <div class="text-gray-500">Soporte en materias de programación — 2022</div>
+          </li> -->
+        </ul>
+      </div>
+
+      <div class="bg-white p-6 rounded-lg shadow">
+        <h3 class="text-xl font-semibold mb-3">Habilidades</h3>
+        <div class="space-y-2 text-sm text-gray-700">
+          <div>• Lenguajes: Python, JavaScript (ES6+), SQL</div>
+          <div>• Web: HTML5, CSS3, Tailwind, Git</div>
+          <div>• Bases de datos: MySQL, PostgreSQL</div>
+          <div>• Otras: Automatización, testing básico</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="mt-12 bg-white p-6 rounded-lg shadow">
+      <h3 class="text-xl font-semibold mb-3">Contacto</h3>
+      <p class="text-gray-700 text-sm mb-4">Puedes contactarme por email o ver mi código en GitHub.</p>
+      <div class="flex flex-col sm:flex-row gap-3">
+        <a href="mailto:roldanpehuen@gmail.com" class="px-4 py-2 border rounded-md text-sm">Enviar email</a>
+        <a href="https://github.com/PehuenRoldann" target="_blank" rel="noopener" class="px-4 py-2 border rounded-md text-sm">GitHub</a>
+        <a href="https://linkedin.com/in/pehuén-roldán-b0066725a" target="_blank" rel="noopener" class="px-4 py-2 border rounded-md text-sm">LinkedIn</a>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="mt-12 text-center text-sm text-gray-500">© 2025 Pehuén Roldán - Curriculum Vitae</footer>
+  </main>
+
+  <script>
+    // Simple carousel logic (no deps)
+    (function(){
+      const track = document.querySelector('.carousel-track');
+      const slides = Array.from(track.children);
+      const prevBtn = document.getElementById('prev');
+      const nextBtn = document.getElementById('next');
+      const dotsEl = document.getElementById('dots');
+      let index = 0;
+
+      function update() {
+        const width = track.parentElement.offsetWidth;
+        track.style.transform = `translateX(${-index * width}px)`;
+        Array.from(dotsEl.children).forEach((d,i)=> d.classList.toggle('active', i===index));
+      }
+
+      function go(n){
+        index = (n + slides.length) % slides.length;
+        update();
+      }
+
+      // Create dots
+      slides.forEach((_,i)=>{
+        const d = document.createElement('span');
+        d.className = 'dot';
+        d.addEventListener('click', ()=> go(i));
+        dotsEl.appendChild(d);
+      });
+
+      prevBtn.addEventListener('click', ()=> go(index-1));
+      nextBtn.addEventListener('click', ()=> go(index+1));
+
+      // Resize: re-run update so translate uses new width
+      window.addEventListener('resize', update);
+
+      // Auto-play (optional) — comment if you don't want it
+      let autoplay = true;
+      let timer = setInterval(()=>{ if(autoplay) go(index+1); }, 5000);
+      // Pause on hover
+      track.parentElement.addEventListener('mouseenter', ()=> autoplay=false);
+      track.parentElement.addEventListener('mouseleave', ()=> autoplay=true);
+
+      // Initialize
+      go(0);
+    })();
+  </script>
+</body>
+</html>
